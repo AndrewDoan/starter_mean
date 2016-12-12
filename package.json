@@ -1,0 +1,29 @@
+{
+  "name": "practice",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm install; node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.7.13",
+    "bluebird": "^3.4.6",
+    "body-parser": "~1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.1",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "express-session": "^1.14.2",
+    "formidable": "^1.0.17",
+    "fs-extra": "^1.0.0",
+    "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg-promise": "^5.4.7",
+    "s3fs": "^2.5.0",
+    "serve-favicon": "~2.3.0",
+    "util": "^0.10.3"
+  }
+}
