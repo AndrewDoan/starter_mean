@@ -27,8 +27,8 @@ var connection = "postgres://Bloot@localhost/auth";
 var db = pgp(connection);
 var S3FS = require('s3fs');
 var s3fsImpl = new S3FS('bucket-name',{
-    accessKeyId: "AKIAJYA4PMXAFYPALNNA",
-    secretAccessKey: "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"
+    accessKeyId: "",
+    secretAccessKey: ""
 });
 require('./config/passport')(passport); // pass passport for configuration
 
